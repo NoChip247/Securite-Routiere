@@ -82,3 +82,11 @@ dpt.*
 FROM avian-slice-411310.securite_routiere.caracteristiques_clean as car
 left join avian-slice-411310.securite_routiere.dpt_fr as dpt
 on car.dep=dpt.code_departement
+
+
+-- On rajoute 'FR-' devant le numéro de chaque département pour obtenir un point géographique reconnu par Google Maps, et pouvoir afficher sur une carte le nombre d'accident par départment
+SELECT
+  *,
+  CONCAT('FR-', CAST(dep AS STRING)) AS fr_dep,
+FROM
+  `avian-slice-411310.securite_routiere.caracteristiques_dpt`
