@@ -72,3 +72,13 @@ WITH
 
 SELECT *
 FROM sub3;
+
+
+
+-- On importe le nom de chaque départements
+SELECT
+car.*,
+dpt.*
+FROM avian-slice-411310.securite_routiere.caracteristiques_clean as car
+left join avian-slice-411310.securite_routiere.dpt_fr as dpt
+on car.dep=dpt.code_departement
