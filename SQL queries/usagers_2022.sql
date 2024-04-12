@@ -21,6 +21,9 @@ SELECT
 FROM
   `avian-slice-411310.securite_routiere.usagers_2022`
 
+
+
+  
 -- PRIMARY KEY
 
 SELECT
@@ -34,3 +37,40 @@ HAVING
   nb > 2
 ORDER BY
   nb DESC
+
+
+
+-- ENRICHISSEMENT
+
+-- Import de la légende pour une meilleure lisibilité
+SELECT
+Num_Acc,
+id_usager,
+id_vehicule,
+num_veh,
+place AS place_dans_le_vehicule,
+CASE
+  WHEN catu = 1 THEN 'Conducteur'
+  WHEN catu = 2 THEN 'Passager'
+  WHEN catu = 3 THEN 'Piéton'
+  END AS categorie_usager,
+CASE
+  WHEN grav = 1 THEN 'Indemne'
+  WHEN grav = 2 THEN 'Tué'
+  WHEN grav = 3 THEN 'Blessé hospitalisé'
+  WHEN grav = 4 THEN 'Blessé léger'
+  END AS gravite,
+CASE
+  WHEN sexe = 1 THEN 'Masculin'
+  WHEN sexe = 2 THEN 'Féminin'
+  END AS sexe,
+an_nais AS annee_naissance,
+trajet,
+secu1,
+secu2,
+secu3,
+locp,
+actp,
+etatp
+FROM
+  `avian-slice-411310.securite_routiere.usagers_2022_clean`
