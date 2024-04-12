@@ -33,6 +33,8 @@ ORDER BY
 
 
 
+-- ENRICHISSEMENT
+
 -- Import de la légende pour une meilleur lisibilité
 SELECT
 Num_Acc,
