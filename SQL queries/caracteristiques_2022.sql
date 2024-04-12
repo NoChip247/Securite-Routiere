@@ -44,6 +44,13 @@ ORDER BY
 
 
 
+
+
+
+
+
+-- ENRICHISSEMENT
+
 -- On CONCAT les colonnes "an", "mois", "jour", puis on CAST cette nouvelle STRING en DATE, et enfin on formate la date en jour de la semaine
 WITH
   sub1 AS (
@@ -73,8 +80,6 @@ WITH
 SELECT *
 FROM sub3;
 
-
-
 -- On importe le nom de chaque départements
 SELECT
 car.*,
@@ -90,10 +95,6 @@ SELECT
   CONCAT('FR-', CAST(dep AS STRING)) AS fr_dep,
 FROM
   `avian-slice-411310.securite_routiere.caracteristiques_dpt`
-
-
-
-
 
 
 
