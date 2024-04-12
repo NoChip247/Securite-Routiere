@@ -14,6 +14,8 @@ ORDER BY
 
 
 
+-- ENRICHISSEMENT
+
 -- Import de la légende dans la table pour une meilleure lisibilité
   
 SELECT
