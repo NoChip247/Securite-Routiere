@@ -6,6 +6,7 @@
 - Dataviz : Google Looker Studio
 
 Pour chaque **accident corporel***, des informations sont saisies par les forces de l’ordre qui sont intervenues sur le lieu de l’accident. Ces saisies sont rassemblées dans une base de données administrée par l’Observatoire National Interministériel de la Sécurité Routière.
+
 ***Accident corporel** : un accident survenu sur une voie ouverte à la circulation publique, impliquant au moins un véhicule et ayant fait au moins une victime ayant nécessité des soins.
 
 Lien vers le rapport : https://lookerstudio.google.com/reporting/0c48add4-4388-4fbf-8c91-2c3e2bca02f8
