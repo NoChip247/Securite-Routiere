@@ -1,3 +1,5 @@
+![](https://github.com/NoChip247/Securite-Routiere/blob/aa342c3f1701063e8dc83dd98452e64515a997e3/assets/images/secu_banner.png)
+
 # Analyse descriptive des données de la Sécurité Routière
 - Projet personnel : proposer une photographie de l'accidentologie en France en 2022, à travers une analyse descriptive de données publiques
 - Dataset : Sécurité Routière 2022 (https://www.data.gouv.fr/fr/)
