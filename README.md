@@ -12,4 +12,4 @@ Pour chaque **accident corporel***, des informations sont saisies par les forces
 
 Lien vers le rapport : https://lookerstudio.google.com/reporting/0c48add4-4388-4fbf-8c91-2c3e2bca02f8
 
-![image du rapport](https://github.com/NoChip247/securite_routiere/blob/main/Se%CC%81curite%CC%81_routie%CC%80re_2022.png)
+![](https://github.com/NoChip247/Securite-Routiere/blob/3087052c1e209af8e60c3d8be9a0cf267048eca8/assets/images/Se%CC%81curite%CC%81_routie%CC%80re_2022.png)
